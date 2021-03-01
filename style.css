@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.top-pattern {
+    position: absolute;
+    right: 52% ;
+    bottom: 0;
+}
+
+.bottom-pattern {
+    position: absolute;
+    left: 48%;
+    top: 92%;
+}
+
+.main {
+    height: 55vh;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    margin: 0;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 18px;
+    font-family: 'Kumbh Sans',
+    sans-serif;
+    box-shadow: 13px 10px 200px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card_pattern {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.profile-img {
+    border-radius: 50% ;
+    border: 5px solid white;
+    position: absolute;
+    top: 24%;
+    left: 33%;
+}
+
+.profile-name {
+    position: relative;
+    top: 60px;
+}
+
+span {
+    font-weight: 700;
+}
+
+.sub {
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+}
+
+hr {
+    width: 100%;
+    position: absolute;
+    top: 74%;
+}
+
+table {
+    display: inline;
+}
+
+.sub>span {
+    margin: 18px;
+}
+
+
+.smaller {
+    font-size: 11px;
+    font-weight: 200;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
